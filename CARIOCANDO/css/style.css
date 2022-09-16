@@ -35,7 +35,7 @@ body{
 }
 
 .content{
-    width: 74%;
+    width: 64%;
     float: left;
     background-color: white;
     font-size: 90%;
@@ -50,8 +50,8 @@ body{
 
 .mainleft{
     float:right;
-    width: 20%;
-    background-color: aqua;
+    width: 30%;
+   
 }
 
 .footer{
@@ -59,6 +59,14 @@ body{
     font-size: 14px;
     color:white;
     background-color: olive;
+}
+
+.contentp{
+    width: 100%;
+    background-color: white;
+    font-size: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
