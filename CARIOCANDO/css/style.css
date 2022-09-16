@@ -2,6 +2,9 @@ body{
     color:black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white url(../img/rio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .container{
@@ -12,7 +15,6 @@ body{
 
 .mainav{
     background-color: olive;
-    color:darkred;
 }
 
 .mainav li {
@@ -26,6 +28,38 @@ body{
     color:white;
 }
 
+.mainav li a:hover, a:active{
+    text-decoration: none;
+    color: white;
+    background-color: #271900;
+}
+
+.content{
+    width: 74%;
+    float: left;
+    background-color: white;
+    font-size: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.content p{
+    text-align: justify;
+    
+}
+
+.mainleft{
+    float:right;
+    width: 20%;
+    background-color: aqua;
+}
+
+.footer{
+    clear: both;
+    font-size: 14px;
+    color:white;
+    background-color: olive;
+}
 
 
 
