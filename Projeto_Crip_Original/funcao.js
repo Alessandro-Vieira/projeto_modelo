@@ -1,4 +1,14 @@
 botao = document.querySelector("#btn")
+document.getElementById("chave").style.display = "none"
+c = document.querySelector("#tipo")
+c.onclick=function(){
+    if (document.form1.tipo.value==2){
+        document.getElementById("chave").style.display = "block"
+    }
+    if (document.form1.tipo.value==1){
+        document.getElementById("chave").style.display = "none"
+    }
+}
 botao.onclick=function(){
     letras = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
     opcao1 = document.querySelector("#flexRadioDefault1")
