@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<title>APP IDADE</title>
+</head>
+<body>
+    <style>
+        body{
+            width:50%;
+            margin-left:20%;
+        }
+        label,input{
+            font-size: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+	<h1>Calculadora de Idade</h1>
+	<form name="form1">
+			
+			<label for="data_nasc">Informe a Data de Nascimento:</label>
+				<input type="text" name="data_nasc" id="dataid" maxlength="10" size="6" placeholder="99/99/9999" />
+			<br><br>
+			<label for="idade">Idade:</label>
+				<input type="text" name="idade" id="idade" size="1" readonly />
+			<br></br>
+			
+		</br></br>
+		<input type="button" class="central" name="btn" id="btn" value="ENVIAR">
+		<input type="reset" class="central" name="limpar" value="LIMPAR"/>
+	</form>
+</body>
+</html>
+<script type="text/javascript" src="idade.js"></script>
